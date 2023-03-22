@@ -1,0 +1,154 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.print-area{
+    width: 80%;
+    margin: 20px auto;
+} */
+.print-area .header{
+    width: 80%;
+    height: 150px;
+    background-color: rgb(31,34,43);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header-text{
+    color: white;
+    width: 60%;
+    margin-left: auto;
+}
+.header-text h2{
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: auto;
+}
+.header-text p{
+    font-size: 20px;
+    color: lightgray;
+    margin-top: auto;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-area{
+    width: 30%;
+    background-color: rgb(241, 234, 234);
+    text-align: center;
+}
+.left-area .contact{
+    margin-top: 40px;
+}
+.contact h4{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.contact h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.contact p{
+    font-size: 17px;
+}
+.skills{
+    margin-top: 30px;
+}
+.skills h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+
+
+.right-area{
+    width: 70%;
+    /* background-color: rgb(241, 234, 234); */
+    /* background-size: 70%; */
+}
+.right-area h1{
+    font-size: 25px;
+    font-weight: normal;
+}
+.right-area h1 span{
+    margin-right: 30px;
+    font-size: 50px;
+    color: lightgray;
+}
+.right-area p{
+    width: 60%;
+    padding-left: 50px;
+    text-align :center;
+    word-break: break-all;
+    font-size: 17px;
+    color: gray;
+    margin-top: 10px;
+}
+.education h1{
+    padding-left: 25px;
+    font-size: 25px;
+    font-weight: normal;
+}
+.education h3{
+    font-size: 25px;
+    font-weight: normal;
+    padding-left: 25px;
+}
+.education .education-group{
+    position: relative;
+} 
+.education-group h3{
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 70px;    
+}
+.education .education-group p1{
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+    padding-left: 80px;
+    margin-top: 5px;
+}
+.education-group p2{
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+    padding-left: 80px;
+}
+.education-group p3{
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+    padding-left: 80px;
+}
+.soft-skills h3{
+    font-size: 25px;
+    font-weight: normal;
+    padding-left: 25px;
+}
+button{
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 50px 0 50px 140px;
+    background-color: rgb(83,83,83);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    cursor: pointer;
+    transition: 5s;
+}
+button:hover{
+    background-color: black;
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+}
+
+
+
+
